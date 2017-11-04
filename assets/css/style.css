@@ -53,22 +53,21 @@ nav a:first-child {
 }
 
 div.container2 {
-	background: url(../images/xv_@2X.png,);
+	background: url(../images/xv_@2X.png);
 	padding: 30px;
 	margin: 0px;
 	border-top: 5px;
 	border-top-color: lightgrey;
+  height: 900px;
 	}
 
     section.article {
-        display: block;
-        box-sizing: border-box;
         float: left;
+        box-sizing: border-box;
         height: 500px;
         }
 
         div.p {
-          display: block;
           width: 100%;
           float: left;
           font-weight: bold;
@@ -76,7 +75,6 @@ div.container2 {
           padding-bottom: 50px;
           color: #4aaaa5;
           font-family: 'Georgia', Times, Times New Roman, serif;
-
         }
 
         img {
@@ -91,7 +89,6 @@ div.container2 {
         }
 
     section.aside {
-        display: block;
         float: right;
         height: 300px;
         }
