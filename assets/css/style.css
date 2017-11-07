@@ -14,6 +14,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0px;
+    padding-left: 70px;
   }
 
   div.container12 {
@@ -29,14 +30,16 @@ body {
   }
   div.header {
     display: block;
+    width: 960px;
     box-sizing: border-box; 
     background-color: white;
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
     justify-content: space-between;
     margin-left: 30px;
+    margin-right: 30px;
     height: 90px;
-            }
+    }
 
   .name {
     display: block;
@@ -49,9 +52,10 @@ body {
 
   nav {
       display: block;
-      font-size: 20px;
       float: right;
+      font-size: 20px;
       padding: 30px;
+      padding-right: 0px;
       }
 
   nav a {
@@ -70,12 +74,14 @@ body {
 
 hr {
   margin: 0px;
+  width: 1500px;
 }
 
 
   div.container2 {
   	background: url(../images/xv_@2X.png);
-  	padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   	margin: 0px;
   	border-top: 5px;
   	border-top-color: lightgrey;
@@ -84,6 +90,8 @@ hr {
     width: 960px;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 70px;
+    padding-left: 70px;
   	}
 
     section.article {
@@ -93,9 +101,10 @@ hr {
         padding-right: 30px;
         background-color: white;
         flex:2 ;
-        margin-right: 80px;
+        margin-right: 30px;
+        margin-left: 30px;
         height: 1000px;
-        }
+      }
 
         div.p {
           width: 100%;
@@ -109,8 +118,9 @@ hr {
         }
 
         img {
-        	float: left;
-        	margin-right: 30px
+        	margin-right: 10px;
+          margin-bottom: 10px;
+
         }
 
         .work img {
@@ -140,9 +150,15 @@ hr {
       margin-bottom: 0;
       }
 
-.icon-img {
-  width: 100px;
-}
+
+    div.icons {
+      padding-top: 30px;
+    }
+
+
+    .icon-img {
+      width: 50%;
+    }
 
 
 /*ONLY for portfolio page
@@ -153,10 +169,10 @@ hr {
 
     .work {
       position: relative;
-      width: 274px;
+      width: 200px;
       overflow: auto;
       float: left;
-      margin: 20px 0 25px;
+      margin: 0 25px;
       }
 
     .work:nth-child(even) {
@@ -178,7 +194,7 @@ hr {
       width: 100%;
       color: #fff;
       text-align: center;
-      line-height: 30px;
+      line-height: 20px;
       font-weight: 300;
       background: #4aaaa5;
       border-bottom: 0;
