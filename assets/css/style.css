@@ -10,8 +10,7 @@ body {
 
   div.container1 {
     display: flex;
-    width: 960px;
-    margin-right: auto;
+/    margin-right: auto;
     margin-left: auto;
     margin-bottom: 0px;
     padding-left: 70px;
@@ -21,7 +20,6 @@ body {
     box-sizing: border-box;
     padding: 30px;
     display: flex;
-    width: 960px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0px;
@@ -30,7 +28,7 @@ body {
   }
   div.header {
     display: block;
-    width: 960px;
+    /*width: 960px;*/
     box-sizing: border-box; 
     background-color: white;
     font-weight: bold;
@@ -39,6 +37,7 @@ body {
     margin-left: 30px;
     margin-right: 30px;
     height: 90px;
+    float: left;
     }
 
   .name {
@@ -56,6 +55,7 @@ body {
       font-size: 20px;
       padding: 30px;
       padding-right: 0px;
+      float: right;
       }
 
   nav a {
@@ -74,8 +74,8 @@ body {
 
 hr {
   margin: 0px;
-  width: 1500px;
-}
+/*  width:100%;
+*/  }
 
 
   div.container2 {
@@ -87,9 +87,7 @@ hr {
   	border-top-color: lightgrey;
     display: flex;
     height: 1200px;
-    width: 960px;
-    margin-right: auto;
-    margin-left: auto;
+    width: 980px;
     padding-right: 70px;
     padding-left: 70px;
   	}
@@ -202,7 +200,6 @@ hr {
 
 
 
-
 footer.fixed {
     display: block;
     position: fixed;
@@ -212,5 +209,33 @@ footer.fixed {
       padding: 40px;
       margin: 0;
       text-align: center;
-      background-color: #666666;
-  }
+      background-color: #666666;}
+
+
+	
+@media only screen and (max-width: 980px) {
+    .container1 {
+    	width: 100%;
+    	}
+    .container2 {
+    	width: 100%;
+    }
+	}
+
+@media only screen and (max-width: 768px) {
+    .container1 {
+    	width: 768px;
+    	}
+    .container2 {
+    	width: 768px;
+    }
+	}
+
+@media only screen and (max-width: 640px) {
+    .container1 {
+    	width: 640px;
+    	position: static;
+    	}
+    .container2 {
+    	width: 640px;
+    }
