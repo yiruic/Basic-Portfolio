@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var input = prompt("Do you Choice Rock, Paper, or Scissors")
+			if (input >= 0.67){
+			    input = "rock";
+			}else if(input < 0.67){
+			     input= "paper";
+			}
+			else if{input <= 0.33;
+			     input= "scissors";
+			} 
+
+		var computerChoice = Math.random();
+			if (computerChoice >= 0.67){
+			    computerChoice = "rock";
+			}else if(computerChoice < 0.67){
+			    computerChoice = "paper";
+			}
+			else if{computerChoice <= 0.33;
+			    computerChoice = "scissors";
+			}
+			
+			var compare = function(input,computerChoice){
+			    if(input===computerChoice){
+			        return "The result is a tie!";
+			    	}
+
+				    if(input==="rock"){
+				        if(computerChoice==="scissors"){
+				            return "rock wins";
+				        }
+				        else{
+				            return "paper wins";
+				        }
+				    }
+				    if(input==="paper"){
+				        if(computerChoice==="rock"){
+				            return "paper wins";
+				        }
+				        else{
+				            return "scissors wins";
+				        }
+				    }
+				    if(input==="scissors"){
+				        if(computerChoice==="rock"){
+				            return "rock wins";
+				        }
+				        else{
+				            return "scissors wins";
+				        }
+			    }
+			};
+			
+			compare(userChoice,computerChoice);
+
+			alert("Do you Choice Rock, Paper, or Scissors")
+			alert("The result is a tie!")
+			alert("ock wins")
+			alert("paper wins")
+			alert("scissors wins")
+
+	</script>
+</body>
+</html>
